@@ -126,4 +126,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = ['https://django-demo.azurewebsites.net','http://127.0.0.1:8000/']
 
 STATIC_URL='/static/'
-STATIC_ROOT= os.path.join(BASE_DIR,"static")
+STATIC_ROOT= os.path.join(BASE_DIR,'static')
